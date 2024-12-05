@@ -6,9 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Empório Dom Bosco | Site Oficial</title>
-  <link rel="stylesheet" href="tela1.css">
-  <script src="https://kit.fontawesome.com/a3908b76ff.js" crossorigin="anonymous"></script>
-  <script src="tela1.js" defer></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/scrollreveal"></script> <!-- Biblioteca do efeito de delay no site-->
+
+  <script src="https://kit.fontawesome.com/5729e0ff2e.js" crossorigin="anonymous"></script>
+  <!-- Usando font awesome para colocar os itens -->
+
 </head>
 
 <body>
@@ -81,9 +86,7 @@
 
       <!-- Botão de Hamburguer, ele está fora da Div justamente por ser um elemento singular -->
     <button class="hamburger" id="hamburgerButton">
-
         <i class="fas fa-bars"></i>
-
     </button>
 
     <!-- Fim do Menu de Navegação -->
@@ -281,10 +284,22 @@
     </ul>
 
   </footer>
-
- 
-
+  
+  <script src="script.js"></script>
 </body>
 
+
+
+
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
 
 </html>
